@@ -2,7 +2,7 @@ import getpass
 import smtplib                                                                        
 HOST = "smtp.gmail.com"                                                                                 
 PORT = 465
-username = "mandeeparora132@gmail.com"                                                                             
+username = "username@email.com"                                                                             
 password = getpass.getpass("Provide Gmail password: ")
 server = smtplib.SMTP_SSL(HOST, PORT)
 
